@@ -10,6 +10,9 @@
 > Demo do projeto Figma:
 [Clique para ver a Demo no figma](https://www.figma.com/proto/NxVG7XuHkqdQlMCHU0LdVq/NODP-OFICIAL-TEAM?node-id=6%3A20&scaling=scale-down)
 
+> App online no Heroku:
+[Clique e veja o app em ação no Heroku](https://nodpteste.herokuapp.com/)
+
 O projeto **NODP** é uma rede social que atua como uma ferramenta de interação entre universitários cujo objetivo é 
 o intercâmbio de conhecimento. O diferencial consiste em conectar o usuário que deseja aprender determinado assunto
 com aquele que está disposto a ensinar, contando com o recurso da gameficação para promover o engajamento nessa 
