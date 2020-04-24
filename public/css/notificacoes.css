@@ -31,12 +31,18 @@ body {
   overflow: scroll;
   scrollbar-width: none;
 }
+.col-titulo {
+  width: 66.1333333333%;
+}
+.col-botaomensagem {
+  width: 32.2666666667%;
+}
 
 ::-webkit-scrollbar {
   width: 0px;
 }
 }
-@media screen and (max-width: 1199px) {
+@media screen and (min-width: 600px) and (max-width: 1199px) {
   .coluna-esquerda {
     /* col-4 */
     height: auto;
@@ -55,7 +61,15 @@ body {
   .coluna-direita {
     display: none;
   }
+  .col-titulo {
+    width: 66.1333333333%;
+  }
+  .col-botaomensagem {
+    width: 32.2666666667%;
+  }
+
 }
+
 @media screen and (max-width: 599px) {
   .coluna-esquerda {
     display: none;
@@ -71,6 +85,27 @@ body {
   .coluna-direita {
     display: none;
   }
+  .col-titulo {
+    width: 50%;
+  }
+  .col-botaomensagem {
+    width: 50%;
+    margin-right: 0;
+  }
+
+  #buscar-destinatarios{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 5vh;
+    justify-content: space-between; 
+  }
+
+  .modal-footer{
+    flex-wrap: nowrap;
+  }
+
+
 }
 
 /* inicio componente notificacoes-central */
